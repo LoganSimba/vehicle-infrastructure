@@ -8,6 +8,12 @@ public class Vehicle {
     private int cargoCapacity;
     private double fuelCapacity;
 
+    public Vehicle(String name, double speed, String color) {
+        this.name = name;
+        this.speed = speed;
+        this.color = color;
+    }
+
 
     public String getName() {
         return name;
